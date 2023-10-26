@@ -4,14 +4,28 @@ import ListItemComponent from "./ListItemComponent";
 
 export const ListComponent = () => {
   const [input, setInput] = useState("");
-  const [item, setItem] = useState(["One"]);
+  const [todos, setTodos] = useState([
+    { id: 1, name: "One" },
+    { id: 2, name: "Two" },
+    { id: 3, name: "Three" },
+  ]);
 
   const onClickHandler = () => {
-    const updatedElement = [...item, input];
-    setItem(updatedElement);
+    if (input.trim() === "") return;
+
+    const newTodo = {
+      id: todos.length + 1,
+      name: input,
+    };
+    const updatedTodos = [...todos, newTodo];
+    setTodos(updatedTodos);
     setInput("");
   };
 
+  const onDeleteHandler = (id) => {
+    const updatedTodos = todos.filter((todo) => todo.id !== id);
+    setTodos(updatedTodos);
+  };
   const onChangeHandler = (e) => {
     const value = e.target.value;
     setInput(value);
@@ -29,10 +43,14 @@ export const ListComponent = () => {
         value={input}
         onKeyPress={onKeyPressHandler}
       />
-      <p>{item.length}</p>
+      <p>{todos.length}</p>
       <ul>
-        {item.map((element, index) => (
-          <ListItemComponent key={index} element={element} />
+        {todos.map((todo) => (
+          <ListItemComponent
+            key={todo.id}
+            todo={todo}
+            onDelete={() => onDeleteHandler(todo.id)}
+          />
         ))}
       </ul>
       <button onClick={() => onClickHandler(input)}>Add TODo</button>

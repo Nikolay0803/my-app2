@@ -2,9 +2,11 @@ import React from 'react'
 
 function ListItemComponent(props) {
   return (
-    <li key={`${props.element} ${props.index}`}>
-      {props.element} {props.index}
+    <li>
+      {props.todo.id}: {props.todo.name}
+      <button onClick={props.onDelete}>Delete</button>
     </li>
+    
   );
 }
 
