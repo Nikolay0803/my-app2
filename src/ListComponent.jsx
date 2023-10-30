@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import ListItemComponent from "./ListItemComponent";
+import ButtonComponent from "./ButtonComponent";
 
 export const ListComponent = () => {
   const [input, setInput] = useState("");
@@ -43,16 +44,16 @@ export const ListComponent = () => {
         value={input}
         onKeyPress={onKeyPressHandler}
       />
-      <p>{todos.length}</p>
+      <h2>{todos.length}</h2>
       <ul>
         {todos.map((todo) => (
           <ListItemComponent
             key={todo.id}
             todo={todo}
             onDelete={() => onDeleteHandler(todo.id)}
-          />
+          >{<ButtonComponent text={"delete"} type={"button"} />}</ListItemComponent>
         ))}
-      </ul>
+      </ul> 
       <button onClick={() => onClickHandler(input)}>Add TODo</button>
     </>
   );

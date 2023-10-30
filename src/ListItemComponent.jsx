@@ -1,9 +1,12 @@
 import React from 'react'
 
+
 function ListItemComponent(props) {
+
+  
   return (
     <li>
-      {props.todo.id}: {props.todo.name}
+       {props.todo.name}
       <button onClick={props.onDelete}>Delete</button>
     </li>
     
