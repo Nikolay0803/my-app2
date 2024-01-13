@@ -1,0 +1,87 @@
+{
+  "todos": [
+    {
+      "name": "Helloo 111111",
+      "description": "Worldd",
+      "completed": false,
+      "id": 1
+    }
+  ],
+  "auth": [
+    {
+      "id": 1,
+      "login": "nikolay",
+      "password": "1234"
+    },
+    {
+      "username": "12122",
+      "password": "1212121",
+      "id": 2
+    },
+    {
+      "username": "12122",
+      "password": "1212121bvb",
+      "id": 3
+    },
+    {
+      "username": "авава",
+      "password": "вава",
+      "id": 4
+    },
+    {
+      "login": "dsdsd",
+      "password": "sdsdsd",
+      "id": 5
+    },
+    {
+      "login": "nik",
+      "password": "",
+      "id": 6
+    },
+    {
+      "login": "xcvxcv",
+      "password": "cvcvcv",
+      "id": 7
+    },
+    {
+      "login": "sdsdsdsdsds",
+      "password": "sdsdsdsdsdsds",
+      "id": 8
+    },
+    {
+      "login": "nikolay32",
+      "password": "sdddddddd",
+      "id": 9
+    },
+    {
+      "login": "wewewewwew",
+      "password": "weeeeeee",
+      "id": 10
+    },
+    {
+      "login": "nikolaYYYYY",
+      "password": "11111111",
+      "id": 11
+    },
+    {
+      "login": "nikolayyy",
+      "password": "123456",
+      "id": 12
+    },
+    {
+      "login": "nikolay",
+      "password": "sdsdsssd",
+      "id": 13
+    },
+    {
+      "login": "nikolayc",
+      "password": "bnbnbnbn",
+      "id": 14
+    },
+    {
+      "login": "nikolay",
+      "password": "qqqqqqqqq",
+      "id": 15
+    }
+  ]
+}
