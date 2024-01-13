@@ -1,3 +1,5 @@
+// ЗАПУСК  // Start json-server --watch db.json --port 8000 --delay 2000
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "react-query";

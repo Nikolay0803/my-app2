@@ -1,12 +1,5 @@
 {
-  "todos": [
-    {
-      "name": "Helloo 111111",
-      "description": "Worldd",
-      "completed": false,
-      "id": 1
-    }
-  ],
+  "todos": [],
   "auth": [
     {
       "id": 1,
