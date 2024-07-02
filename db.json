@@ -1,5 +1,12 @@
 {
-  "todos": [],
+  "todos": [
+    {
+      "name": "Go to the Mall",
+      "description": "Buy a candy",
+      "completed": false,
+      "id": 1
+    }
+  ],
   "auth": [
     {
       "id": 1,

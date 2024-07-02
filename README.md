@@ -1,3 +1,13 @@
+## Todoapp
+
+“TodoApp” is an application created using React. This application is an ideal tool for organizing your time and tasks. With it, you can: add goals: You can set specific goals that you want to achieve, add descriptions to them: Each goal can have a detailed description, helping you better understand what exactly you want to achieve, edit them: You can make changes to your goals and descriptions at any time, mark completion: When you achieve your goals, you can mark them as completed.
+
+SingUP page
+![SignIn page](https://github.com/darynakarmazin/healthy_hub_project/raw/main/src/images/readmeImg/1.png)
+
+Main page
+![Main page](https://github.com/darynakarmazin/healthy_hub_project/raw/main/src/images/readmeImg/2.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
